@@ -27,7 +27,7 @@
 ```
 > PhD Candidate in Computational Biology
 > Specialization : RNA Secondary Structure · Pseudoknot Prediction · Algorithm Design
-> Stack          : C++ · Python · HPC · Linux
+> Stack          : C++ · Python · React · TypeScript · HPC · Linux
 > Status         : [████████████░░░░] deep in the free energy landscape
 ```
 
@@ -76,7 +76,11 @@ Validating computational predictions against **experimentally determined structu
 
 **Core Languages**
 
-<img src="https://skillicons.dev/icons?i=cpp,python" height="40"/>
+<img src="https://skillicons.dev/icons?i=cpp,python,typescript" height="40"/>
+
+**Web & Visualization**
+
+<img src="https://skillicons.dev/icons?i=react,vite" height="40"/>
 
 **Environment & Tooling**
 
@@ -96,6 +100,10 @@ Validating computational predictions against **experimentally determined structu
 ## $ git log --oneline --graph
 
 ```
+*  feat: RNA Structure Visualizer — interactive web app for structure analysis
+|       circle / linear / mountain layouts · pseudoknot detection · base-pair
+|       probability heatmap & arc plot · PPV/Sens/F1 comparison vs reference
+|       built with React + TypeScript, deployed on Vercel
 *  feat: extend DP recurrence to handle crossing base-pair topologies
 *  feat: thermodynamic scoring with nearest-neighbor energy parameters
 *  perf: reduce time complexity via graph-theoretic decomposition
